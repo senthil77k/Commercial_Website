@@ -251,6 +251,7 @@ Upload to GitHub Pages for free hosting.
             margin: 0;
             padding: 0;
         }
+
         .container1 {
             width: 80%;
             max-width: 1000px;
@@ -275,11 +276,63 @@ Upload to GitHub Pages for free hosting.
             border-radius: 5px;
         }
         .answer {
-            display: none;
             padding: 15px;
             background: #f9f9f9;
             border-radius: 5px;
             margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="p-3 text-bg-dark">
+        <div>
+            <h1>COMMERCIAL WEBSITE</h1>
+        </div>
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="e2.html" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="ff.html" class="nav-link px-2 text-white">Features</a></li>
+              <li><a href="ff3.html" class="nav-link px-2 text-secondary">FAQs</a></li>
+              <li><a href="ff4.html" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container1">
+        <h1 class="aa">Frequently Asked Questions</h1>
+        
+        <div class="faq">
+            <div class="question">What services do you offer?</div>
+            <div class="answer">We offer web development, digital marketing, and IT consulting services.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question">How can I contact support?</div>
+            <div class="answer">You can contact our support team via email at support@brandname.com or call us at +1234567890.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question">What payment methods do you accept?</div>
+            <div class="answer">We accept credit/debit cards, PayPal, and bank transfers.</div>
+        </div>
+    </div>
+    
+</body>
+</html>
         }
     </style>
 </head>
